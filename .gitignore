@@ -61,3 +61,5 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+CloudButton/Pods/CocoaPodsKeys/CloudbuttonKeys.h
+CloudButton/Pods/CocoaPodsKeys/CloudbuttonKeys.m

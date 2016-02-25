@@ -1,0 +1,26 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'CloudButton' do
+
+end
+
+target 'CloudButtonTests' do
+
+end
+
+target 'CloudButtonApp' do
+  pod 'Buglife'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'AWSCognito'
+
+  plugin 'cocoapods-keys', {
+    :project => 'CloudButtonApp',
+    :keys => [
+      'CognitoKey'
+    ]}
+
+end

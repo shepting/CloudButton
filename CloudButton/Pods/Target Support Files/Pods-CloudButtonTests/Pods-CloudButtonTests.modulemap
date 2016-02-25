@@ -1,0 +1,6 @@
+framework module Pods_CloudButtonTests {
+  umbrella header "Pods-CloudButtonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
